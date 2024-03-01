@@ -373,8 +373,13 @@ MedianSpawners <- apply(spawners.raw, 1, median)
 MedianNatSpawners <- apply(nat.spawners.raw, 1, median)
 MedianpHOS <- apply(pHOS.raw, 1, median)
 
-write.csv(MedianSpawners,"Output\\MedianSpawners.csv")
-write.csv(MedianpHOS,"Output\\MedianpHOS.csv")
+#create file names based on plotname (aka scenario)
+filename<-gsub(".png", "", plotname)
+wholeoutputnameSpawn <- paste0("Output\\MedianSpawners_",filename,".csv")
+wholeoutputnamepHOS <- paste0("Output\\MedianpHOS_",filename,".csv")
+
+write.csv(MedianSpawners,wholeoutputnameSpawn)
+write.csv(MedianpHOS,wholeoutputnamepHOS)
 
 outdat <- data.frame(RunsOut,YearsOut,GeomeanOut,GeomeanSDOut,MedianOut,MedianSDOut,Quantile5Out,Quantile50Out,
                      Quantile95Out,Geomean5Quantile,Geomean50Quantile,Geomean95Quantile,ExtinctionOut,pHOSOut)
