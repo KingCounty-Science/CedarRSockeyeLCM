@@ -17,8 +17,8 @@ PrespawnSurvRiverMale.hatch.list <- c(0.431,0.569,0.606,0.711,0.540,0.855)   #fr
 PrespawnSurvRiver.nat.list <- c(0.66,0.78,0.7,0.654,0.672,0.862)  #Heidy Barnett's study plus hatchery values for some years, 2014-2018 only
 
 plotname <- "baseline.png"
-source("C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\Cedar River sockeye LCM_model.r")
-source("C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\Cedar River sockeye LCM_abund figure.r")
+source("R\\Cedar River sockeye LCM_model.r")
+source("R\\Cedar River sockeye LCM_abund figure.r")
 
 ########################################################################
 ##    baseline 1: inputs are just the higher values seen in the past (not the lowest values) ##
