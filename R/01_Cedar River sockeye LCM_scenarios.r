@@ -9,7 +9,7 @@ Input.data <- read.csv("data\\Input data.csv", header=TRUE)
               #years with matching data for percent female, fecundity, natural egg-to-fry survival, and hatchery egg-to-fry survival
 FryToPresmoltSurv.list <- c(0.0363,0.0661,0.0218,0.0451,0.0229,0.0089,0.0385,0.0384,0.0145,0.0135)  #Fry-PreSmolt Survival, minus low outlier
 SAR.list <- c(0.1886,0.0359,0.4301,0.0250,0.0324,0.1186,0.0511,0.0465,0.0620,0.1676,0.3732)  #SAR to Locks
-PropByAge.array <- read.csv("C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\PropAdultsByAge.csv", header=TRUE) 
+PropByAge.array <- read.csv("data\\PropAdultsByAge.csv", header=TRUE) 
                    #used years 2005,2006,2008--2019 from fish hauled from trap in Cedar River to the hatchery
 EnRouteSurvLake.list <- c(0.467,0.448,0.304,0.304,0.244)  #2014-2018 only
 PrespawnSurvRiverFem.hatch.list <- c(0.586,0.694,0.681,0.654,0.672,0.862)  #from M. Sedgwick hatchery data, 2014-2018 only
