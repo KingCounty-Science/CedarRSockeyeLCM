@@ -218,7 +218,7 @@ for (j in 1:runs)
             
           #first estimate PropToHatchery based on number of adults to the river
           #######################################################################    
-          source("C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\Scenario 3.r")
+          source("R\\Scenario 3.r")
           #######################################################################
         #print(PropToHatchery[i])
         
@@ -306,7 +306,7 @@ for (j in 1:runs)
         
           #######################################################################      
           #first estimate PropToHatchery based on number of adults to the river
-          source("C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\Scenario 3.r")
+          source("R\\Scenario 3.r")
           #######################################################################
         #print(PropToHatchery[i])
           

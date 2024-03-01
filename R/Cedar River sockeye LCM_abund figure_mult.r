@@ -4,7 +4,7 @@
 #plot the number of natural spawners over time in each run and the average across all runs over time
 #plot pHOS over time in each run and the average across all runs over time
 
-wholeplotname <- paste("C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\Output\\Abundance figure mult vers_",plotname)
+wholeplotname <- paste("Output\\Abundance figure mult vers_",plotname)
 
 #for number of versions within a scenario
 nversions <- 6

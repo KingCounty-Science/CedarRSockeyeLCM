@@ -4,7 +4,7 @@
 #plot the number of spawners over time in each run and the average across all runs over time
 #plot pHOS over time in each run and the average across all runs over time
 
-wholeplotname <- paste("C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\Output\\Abundance figure_",plotname)
+wholeplotname <- paste("Output\\Abundance figure_",plotname)
 
 png(filename = wholeplotname, width = 500, height = 300)
 
