@@ -361,11 +361,11 @@ MedianSpawners <- apply(spawners.raw, 1, median)
 MedianNatSpawners <- apply(nat.spawners.raw, 1, median)
 MedianpHOS <- apply(pHOS.raw, 1, median)
 
-#write.csv(MedianSpawners,"C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\Output\\MedianSpawners.csv")
-#write.csv(MedianpHOS,"C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\Output\\MedianpHOS.csv")
+#write.csv(MedianSpawners,"Output\\MedianSpawners.csv")
+#write.csv(MedianpHOS,"Output\\MedianpHOS.csv")
 
 #outdat <- data.frame(RunsOut,YearsOut,GeomeanOut,GeomeanSDOut,MedianOut,MedianSDOut,Quantile5Out,Quantile50Out,
 #                     Quantile95Out,Geomean5Quantile,Geomean50Quantile,Geomean95Quantile,ExtinctionOut,pHOSOut)
 #outdat
 
-#write.csv(outdat,"C:\\Users\\kendanwk\\OneDrive - Washington State Executive Branch Agencies\\WDFW\\Cedar River sockeye\\Life-cycle model\\Output\\OutputResults.csv")
+#write.csv(outdat,"\\Output\\OutputResults.csv")
