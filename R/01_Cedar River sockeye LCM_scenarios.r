@@ -392,3 +392,87 @@ TotalMedianNatSpawners <- rbind(TotalMedianNatSpawners,MedianNatSpawners)
 
 plotname <- "scenario 5.png"
 source("R\\Cedar River sockeye LCM_abund figure_mult.r")
+
+
+########################################################################
+##  scenario 6: increase HATCHERY fry to pre-smolt/smolt survival     ##
+########################################################################
+
+#make sure scenario 6 is read into Cedar River sockeye LCM_model_hatchfrytosmolt.r
+
+Nat.FryToPresmoltSurv.list <- c(0.0363,0.0661,0.0218,0.0451,0.0229,0.0089,0.0385,0.0384,0.0145,0.0135)  #Fry-PreSmolt Survival, minus low outlier
+#6a
+Hatch.FryToPresmoltSurv.list <- seq(0.05,0.2,0.01)  #CHANGED for this scenario
+plotname <- "scenario 6aa.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_abund figure.r")
+TotalMedianNatSpawners <- MedianNatSpawners
+#6b
+Hatch.FryToPresmoltSurv.list <- seq(0.1,0.3,0.01)  #CHANGED for this scenario
+plotname <- "scenario 6bb.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_abund figure.r")
+TotalMedianNatSpawners <- rbind(TotalMedianNatSpawners,MedianNatSpawners)
+#6c 
+Hatch.FryToPresmoltSurv.list <- seq(0.2,0.5,0.01)  #CHANGED for this scenario
+plotname <- "scenario 6cc.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_abund figure.r")
+TotalMedianNatSpawners <- rbind(TotalMedianNatSpawners,MedianNatSpawners)
+#6d
+Hatch.FryToPresmoltSurv.list <- seq(0.3,0.6,0.01)  #CHANGED for this scenario
+plotname <- "scenario 6dd.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_abund figure.r")
+TotalMedianNatSpawners <- rbind(TotalMedianNatSpawners,MedianNatSpawners)
+#6e
+Hatch.FryToPresmoltSurv.list <- seq(0.4,0.7,0.01)  #CHANGED for this scenario
+plotname <- "scenario 6ee.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_figures.r")    
+TotalMedianNatSpawners <- rbind(TotalMedianNatSpawners,MedianNatSpawners)
+#6f
+Hatch.FryToPresmoltSurv.list <- seq(0.5,0.8,0.01)  #CHANGED for this scenario
+plotname <- "scenario 6ff.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_figures.r")    
+TotalMedianNatSpawners <- rbind(TotalMedianNatSpawners,MedianNatSpawners)
+
+plotname <- "scenario 6.png"
+source("R\\Cedar River sockeye LCM_abund figure_mult.r")
+
+
+#################################################################################################################################
+##  scenario 7: increase HATCHERY fry to pre-smolt/smolt survival and increased proportion of adults taken to the hatchery     ##
+#################################################################################################################################
+
+#make sure scenario 7 is read into Cedar River sockeye LCM_model_hatchfrytosmolt.r
+
+Nat.FryToPresmoltSurv.list <- c(0.0363,0.0661,0.0218,0.0451,0.0229,0.0089,0.0385,0.0384,0.0145,0.0135)  #Fry-PreSmolt Survival, minus low outlier
+#7a
+Hatch.FryToPresmoltSurv.list <- seq(0.05,0.2,0.01)  #CHANGED for this scenario
+plotname <- "scenario 7a.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_abund figure.r")
+TotalMedianNatSpawners <- MedianNatSpawners
+#7b
+Hatch.FryToPresmoltSurv.list <- seq(0.1,0.3,0.01)  #CHANGED for this scenario
+plotname <- "scenario 7b.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_abund figure.r")
+TotalMedianNatSpawners <- rbind(TotalMedianNatSpawners,MedianNatSpawners)
+#7c 
+Hatch.FryToPresmoltSurv.list <- seq(0.2,0.5,0.01)  #CHANGED for this scenario
+plotname <- "scenario 7c.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_abund figure.r")
+TotalMedianNatSpawners <- rbind(TotalMedianNatSpawners,MedianNatSpawners)
+#7d
+Hatch.FryToPresmoltSurv.list <- seq(0.3,0.6,0.01)  #CHANGED for this scenario
+plotname <- "scenario 7d.png"
+source("R\\Cedar River sockeye LCM_model_hatchfrytosmolt.r")
+#source("R\\Cedar River sockeye LCM_abund figure.r")
+TotalMedianNatSpawners <- rbind(TotalMedianNatSpawners,MedianNatSpawners)
+
+plotname <- "scenario 7.png"
+source("R\\Cedar River sockeye LCM_abund figure_mult.r")
