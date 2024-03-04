@@ -1,5 +1,5 @@
 ########################################################################
-##   scenario 3: change proportion of adults taken to the hatchery    ## 
+##   scenario 4: change proportion of adults taken to the hatchery    ## 
 ########################################################################
 
 PropToHatchery[i] <- 0.2
